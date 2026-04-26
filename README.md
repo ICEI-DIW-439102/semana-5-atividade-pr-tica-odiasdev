@@ -16,14 +16,14 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-![](\public\src\desktopsemana5.png)
+![](/public/src/desktopsemana5.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-![](\public\src\mobilesemana5.png)
+![](/public/src/mobilesemana5.png)
 
 ## Print da versão responsiva com CSS puro [TABLET] (*)
 
-![](\public\src\tabletsemana5.png)
+![](/public/src/tabletsemana5.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
