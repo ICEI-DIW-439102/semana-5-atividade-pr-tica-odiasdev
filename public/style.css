@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+
+.header {
+    margin: 0;
+}
+
+.header-bar {
+    background-color: #cc1417;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px;
+    max-height: 10vh;
+    flex-wrap: nowrap;
+}
+
+.header-title {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.header-text {
+    font-weight: 300;
+    margin: 0;
+}
+
+.second-bar {
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo img {
+    max-height: 6vh;
+    margin-left: 30px;
+}
+
+.menu-bar li {
+    padding: 0 10px;
+}
+
+.menu-bar li:not(:last-child) {
+    border-right: 1px solid #ffffff6b;
+}
+
+.menu-bar-right li:not(:last-child) {
+    border-right: 1px solid #ffffff6b;
+}
+
+.menu-logo {
+    border-right: none !important;
+}
+
+.menu-bar-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar-right li {
+    padding: 0 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    color: #333;
+}
+
+
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-item:nth-child(3) {
+        grid-column: auto;
+    }
+}
+
+.text-main {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+
+.img-main {
+    display: block;
+    width: 100%;
+}
+
+.alerta {
+    background-color: #cc1417;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    padding: 15px 20px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+.text-main {
+    font-size: 2.2rem;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    padding: 20px 0;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    padding: 0 15px;
+}
+
+.grid-item:last-child {
+    border-right: none;
+}
+
+.main-description {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+.live-updates {
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+.spy-text {
+    color: #333;
+    margin: 5px 0;
+    font-size: 0.95rem;
+}
+
+
+.tabs-container {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.tab {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #555;
+}
+
+.tab-active {
+    background-color: #cc1417;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.news-list li:last-child {
+    border-bottom: none;
+}
+
+.bullet {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 6px;
+    height: 6px;
+    background-color: #cc1417;
+    border-radius: 50%;
+}
+
+.bullet.empty {
+    background-color: transparent;
+}
+
+.time {
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.overlay-text {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #333;
+    margin: 0;
+}
+
+.mt-20 {
+    margin-top: 30px;
+}
+
+
+.section-top {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.link-title {
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.text-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-links li {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+    color: #000000;
+    font-size: 0.95rem;
+    font-weight: bold;
+}

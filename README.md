@@ -9,18 +9,21 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
+- Nome: Lucas Oliveira Dias
 - Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Proposta de projeto escolhida: Peguei a foto que você deixou na tarefa e fiz o layout dela com flexbox e css. Tentei manter o padrão o máximo possivel.
+- Breve descrição sobre seu projeto: Clone da CNN EUA feita em HTML e CSS.
 
 ## Print da versão responsiva com CSS puro [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![](\public\src\desktopsemana5.png)
 
 ## Print da versão responsiva com CSS puro [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![](\public\src\mobilesemana5.png)
 
+## Print da versão responsiva com CSS puro [TABLET] (*)
+
+![](\public\src\tabletsemana5.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
